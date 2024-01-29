@@ -1,0 +1,309 @@
+.blk{
+    width:400px;
+    height: 260px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 250px;
+    left: 900px;
+    z-index: 1;
+}
+.back{
+    background-image: url("https://assets.about.me/background/users/c/o/u/courierservice1681381032_1681381326_418.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    top: 190px;
+    z-index: 1;
+}
+.truck{
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 280px;
+    height: 180px;
+    top: 496px;
+    left:500px;
+    z-index: 0;
+}
+.thead1{
+    color: black;
+    font-size: 25px;
+    background-color: violet;
+    animation: anime1 2s forwards;
+}
+.thead{
+    color: black;
+    font-size: 25px;
+    animation: anime 2s forwards;
+}
+@keyframes anime {
+    0%{
+        transform: scale(1.5);
+        
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+
+@keyframes anime1 {
+    0% {
+        transform: scale(0.1) rotate3d(1, 1, 1, 0deg);
+    }
+    100% {
+        transform: scale(1.0) rotate3d(1, 1, 1, 360deg);
+    }
+}
+
+.as{
+    width: 35%;
+}
+
+.myInput {
+    width: 35%;
+    height: 40px;
+    font-size: 18px;
+}
+
+.myB {
+    font-size: 18px;
+    width: 35%;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+.cont{
+    display: block;
+    width: 750px;
+    height: 480px;
+    position: absolute;
+    top:200px;
+    left: 260px;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 3%;
+    border: 2px solid;
+    z-index: 1;
+    animation: anime3 0.3s forwards;
+}
+
+
+@keyframes anime3 {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+
+.trackD{
+    display: block;
+    background-color: white;
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+.valid{
+    display: block;
+    background-color: white;
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    top: 190px;
+    left: 150px;
+    z-index: 0;
+}
+
+.myButton {
+    background-color: blue;
+    color: white;
+    width: 35%;
+    height: 40px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .myButton:hover {
+    background-color: green;
+  }
+  .inv{
+    position: absolute;
+    top:230px;
+    left: 400px;
+    z-index: 1;
+    color: red;
+  }
+  
+.invD{
+    color: red;
+    position: absolute;
+    top:170px;
+    left: 440px; 
+    z-index: 1;   
+}
+.truckM{
+    width:50px;
+    height: 30px;
+    position: absolute;
+    top: 68px;
+    z-index: -1;
+    animation: animate 10s forwards;
+}
+@keyframes animate {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(1300px);
+    }
+}
+
+.progress-bar {
+    height: 450px;
+    width: 6px;
+    background-color: beige;
+    position: absolute;
+    overflow: hidden;
+    top: 44px;
+    left:30px;
+  }
+  
+  .fill {
+    width: 100%;
+    height: 0;
+    background-color: #4caf50;
+    position: absolute;
+    top: 0;
+    transition: height 5s ease-in-out;
+  }
+
+
+  .pos{
+    display: flex;
+    position:relative;
+    top: 28px;
+    left: 200px;
+    align-items:flex-start;
+  }
+
+  .pos1{
+    position: absolute;
+    top: 13px;
+    left: 40px;
+  }
+
+  .pos2{
+    position: absolute;
+    top: 120.5px;
+    left: 40px;
+  }
+
+  .pos3{
+    position: absolute;
+    top: 236px;
+    left: 40px;
+  }
+
+  .pos4{
+    position: absolute;
+    top: 348.5px;
+    left: 40px;
+  }
+
+  .pos5{
+    position: absolute;
+    top: 459px;
+    left: 40px;
+  }
+
+  .pos11{
+    position: absolute;
+    top: 25px;
+    left: 55px;
+  }
+
+  .pos12{
+    position: absolute;
+    top: 131px;
+    left: 55px;
+  }
+
+  .pos13{
+    position: absolute;
+    top: 246px;
+    left: 55px;
+  }
+
+  .pos14{
+    position: absolute;
+    top: 360px;
+    left: 55px;
+  }
+
+  .pos15{
+    position: absolute;
+    top: 470px;
+    left: 55px;
+  }
+  ul {
+    list-style-type: disc;
+    color: #4caf50;
+    font-size: 1.8em; 
+  }
+  h5{
+    color:  #4caf50;
+  }
+
+  .closeB{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 17px;
+    left: 740px;
+  }
+  .closeB:hover{
+    width: 32px;
+    height: 32px;
+  }
+
+  .login-notification {
+    position: absolute;
+    top: 168px;
+    right: 560px;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    animation: fadeOut 5s ease-out;
+}
+  .logout-notification {
+    position: absolute;
+    top: 166px;
+    right: 10px;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    animation: fadeOut 5s ease-out;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
